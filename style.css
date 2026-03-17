@@ -3,7 +3,9 @@
     width: 400px;
     padding: 20px;
     border: 1px solid black;
+    font-size: 20px;
 }
+
 
 .container1{
     display: flex;
@@ -13,7 +15,7 @@
 
 .container2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -21,4 +23,25 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.container1:hover{
+  background: orangered;
+}
+
+.container2:hover{
+  background: blueviolet;
+}
+
+.container3:hover{
+  background: green;
+}
+
+
+button:active{
+    transform:scale(2);
+}
+
+span:hover{
+    background-color: brown;
 }
