@@ -1,17 +1,23 @@
+.teclado{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
 .container1{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .container2{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .container3{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
 }
