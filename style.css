@@ -45,3 +45,16 @@ button:active{
 span:hover{
     background-color: brown;
 }
+
+.Parrafo::before{
+    content: "🔥";
+}
+
+.Parrafo::after{
+    content: "🚭";
+}
+
+.Parrafo:hover{
+    background-color: aqua;
+    transform: scale(2)
+}
